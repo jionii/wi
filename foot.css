@@ -1,0 +1,66 @@
+.foot_top_group {
+    width: 1200px;
+    height: 180px;
+    position: relative;
+    margin: auto;
+}
+
+.foot_infobox {
+    width: 400px;
+    height: 120px;
+    padding: 40px 0px 20px;
+    float: left;
+}
+
+.foot_infobox_title {
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.foot_infobox_data {
+    color: #FFFFFF73;
+    font-size: 14px;
+    height: 80px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.6em;
+}
+
+i {
+    color: #4d4d4d;
+    margin-left: 35px;
+}
+
+i:hover {
+    color: #20b334
+}
+
+.foot_bottombox {
+    width: 1140px;
+    height: 150px;
+    margin: auto;
+}
+
+.foot_bottombox_left {
+    display: inline-block;
+    width: 430px;
+    height: 19px;
+    font-size: 13px;
+    color: #909090;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+    margin-top: 65.5px;
+}
+
+.foot_icon_group {
+    display: block;
+    width: 570px;
+    height: 33px;
+    text-align: right;
+    float: right;
+    margin-top: 58.5px;
+}

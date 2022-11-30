@@ -1,0 +1,146 @@
+.main_insta_body {
+    width: 1100px;
+    height: 1245px;
+    background-color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
+    padding: 10px;
+}
+
+.sb_insta_body{
+    box-sizing: border-box;
+    clear: both;
+    color: (75, 79, 88);
+    display: block;
+    float: left;
+    height: 90px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    margin: 0 0 15px;
+    line-height: 1.2;
+    width: 100%;
+}
+
+/* .sb_insta_bodyinside{
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+} */
+
+    .sb_header_link{
+        box-shadow: none;
+        box-sizing: border-box;
+        background-size: cover;
+        cursor: pointer;
+        display: block;
+        float: left;
+        height: 80px;
+        hyphens: manual;
+        line-height: 16.416px;
+        width: 310px;
+    }
+
+    .sb_header_img{
+        box-sizing: border-box;
+        background-size: cover;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: block;
+        float: left;
+        height: 90px;
+        hyphens: manual;
+        opacity: 0.9;
+        width: 90px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        overflow: hidden;
+        position: relative;
+        line-height: 18px
+    }
+
+    .sb_header_text.sb_no_bio{
+        box-sizing: border-box;
+        background-size: cover;
+        cursor: pointer;
+        display: block;
+        float: left;
+        height: 34.7969px;
+        padding-top: 5px;
+        width: 211.875px;
+    }
+
+    h3{
+        box-sizing: border-box;
+        clear: both;
+        color: #3a3a3a;
+        cursor: pointer;
+        display: block;
+        float: left;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 360;
+        text-decoration: none;
+        line-height: 28px;
+        margin-top: 25px;
+    }
+
+    #sbi_images{
+        box-sizing: border-box;
+        color: (75,79,88);
+        display: block;
+        float: left;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+    .sbi_item{
+        box-sizing: border-box;
+        display: block;
+        float: left;
+        height: 356px;
+        opacity: 1;
+        width: 356px;
+        zoom: 1;
+        padding: 5px;
+    }
+
+    .sbi_photo{
+        background-color: transparent;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        display: block;
+        height: 346px;
+        width: 346;
+        opacity: 1;
+    
+    }
+
+/* .main_insta_body:before{
+    content: "";
+    display: block;
+}
+
+.main_insta_bodyinside{
+    position: absolute;
+    top: 30%;
+     right: 0px;
+    bottom: 0px;
+    left: 0px;
+} */
+
+
+
+
+a:focus{
+    transition: all .2s linear;
+}

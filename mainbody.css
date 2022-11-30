@@ -1,0 +1,35 @@
+.main_display {
+    width: 100%;
+    height: 3000px;
+    background-color: #00000040;
+    position: absolute;
+    top: 56px;
+    z-index: 1;
+}
+
+.main_map_body {
+    width: 1100px;
+    height: 480px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.foot_top {
+    width: 100%;
+    height: 180px;
+    background-color: #000000E0;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.foot_bottom {
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+}

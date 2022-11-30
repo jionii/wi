@@ -1,0 +1,45 @@
+.main_menu_body {
+    width: 1100px;
+    height: 615px;
+    background-color:  #FFFFFFE3;
+    position: relative;
+    margin: auto;
+    margin-top: 250px;
+}
+.menu_name{ /*메뉴 이름 구역 설정*/
+    width:100%;
+    height:100px;
+}
+.menu_name_list { 
+    text-align: center; /*텍스트 가운데 정렬*/
+    list-style: none; /*리스트(li) 스타일 없음*/
+    position: relative; /*기준*/
+    top: 50%; /*수직 50%*/
+    
+}
+.menu_name_list li { /*글씨 설정*/
+    display: inline-block;/*메뉴 이름 한줄 가로 정렬*/
+    padding: 10px 20px 10px 20px; /*위 아래 10px, 좌 우 20px*/
+    color: #626262; /*폰트 색상*/
+    
+
+}
+.menu_name_list>li:hover{ 
+    border-bottom: solid 4px #028F15; /* 메뉴 이름 밑 면만 2px의 초록색 밑줄 표시*/
+}
+.container {
+    padding: 10px;/*안쪽 여백 10px*/
+    display: grid; /*grid 속성*/
+    grid-template-columns: repeat(3, 1fr); /*전체화면에서 3개의 영역을 나누어 표시한다*/
+    grid-gap: 5px; /*사진 사이의 간격*/
+}
+.image {
+    width: 100%;
+    height: 225px;
+    object-fit: cover; /*사진을 가로나 세로크기에 최대한 맞춰져 크기가 조정됨*/
+    filter: brightness(1); /*기본 밝기 */
+    transition: 1.5s; /*1.5초 동안 0.5로 밝기 조절*/
+}
+.image:hover {
+    filter: brightness(0.5);/*0.5 밝기*/
+}
